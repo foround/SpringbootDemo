@@ -9,8 +9,8 @@ import lombok.Data;
  * 类说明：
  */
 @Data
-public class Result {
+public class Result<T> {
     private Integer code;
     private String msg;
-    private Object data;
+    private T data;
 }
